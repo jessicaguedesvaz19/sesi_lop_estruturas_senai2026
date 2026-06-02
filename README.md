@@ -1,2 +1,2 @@
-# sesi_lop_estruturas_senai2026
-# sesi_lop_estruturas_senai2026
+\# Exercícios com estruturas, aula14
+
