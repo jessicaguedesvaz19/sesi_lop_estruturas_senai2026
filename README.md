@@ -21,6 +21,32 @@ Estruturas são tipos de dados compostos que permitem agrupar diferentes tipos d
 
 01 - Crie um programa que utilize uma estrutura para armazenar informações de um produto (nome, preço, quantidade) e exiba essas informações.
 
+´´´
+#include <stdio.h>
+#include <windows.h>
+
+struct Produto {
+	char nome[50];
+	float preco;
+	int quantidade;
+	
+};
+
+void main(){
+	SetConsoleOutputCP(CP_UTF8);
+	struct Produto produtos;
+	
+	strcpy(produtos.nome, "Detergente");
+	produtos.preco = 2,40;
+	produtos.quantidade = 50;
+	
+	printf("Produto: %s\tPreço: %.2f\tQuantidade: %d\n",produtos.nome, produtos.preco, produtos.quantidade);
+
+	getch();
+	
+}
+´´´
+
 02 - Ao exibir as informações do produto, calcule e exiba o valor total em estoque (preço * quantidade).
 
 03 - Crie um vetor de estruturas para armazenar informações de múltiplos produtos e exiba as informações de cada produto, incluindo o valor total em estoque e o total geral.
