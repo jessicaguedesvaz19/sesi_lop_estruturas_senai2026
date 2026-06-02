@@ -1,4 +1,4 @@
-#  Exercícios com estruturas
+#  Exercícios com estruturas (Linguagem C)
 
 * LOP - Aula 14
 
