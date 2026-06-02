@@ -1,3 +1,3 @@
-\# Exercícios com estruturas
+\#  Exercícios com estruturas
 
-* aula14
+* LOP - Aula 14
